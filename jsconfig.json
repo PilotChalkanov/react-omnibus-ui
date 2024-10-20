@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "5.0",
+    "suppressImplicitAnyIndexErrors": true,
+    "suppressExcessPropertyErrors": true,
+    "strictBindCallApply": false,
+    "jsx": "react-jsx",
+    "checkJs": false, // Disable checking of JavaScript files with TS rules
+    "baseUrl": "src", // Adjust if necessary
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
